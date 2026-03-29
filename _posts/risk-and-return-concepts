@@ -1,0 +1,136 @@
+The concept of return is crucial in valuation. It allows us to measure both:
+
+Past performance — how an investment actually performed.
+
+Expected performance — how we expect it to perform in the future.
+
+
+Risk and return are two sides of the same coin: investors expect to be compensated for taking on additional risk with the potential for higher returns.
+
+Holding Period Return
+Let’s start simple. Suppose you purchase a share today at a price P0P_0​.
+
+If, after one year (the holding period), the share yields a return rate r1r_1​, then:
+
+P0×(1+r1)=P1​
+
+where P1P_1 is the price of the share after one year.
+
+Including Dividends
+Now suppose the share also pays a dividend D1D_1 at the end of the year. The relationship becomes:
+
+P0×(1+r1)=P1+D1​
+
+Rearranging:
+
+r1=D1+P1P0−1
+
+Which we can break down as:
+
+r1=D1P0+P1−P0P0
+
+Where:
+
+
+D1P0\frac{D_1}{P_0}​​ = Dividend Yield — the income return from dividends.
+
+P1−P0P0\frac{P_1 - P_0}{P_0}​​ = Capital Gain/Loss (Price Return) — the price appreciation (or depreciation) over the period.
+
+If you bought a share for €100 (P0P_0) and after one year it’s worth €110 (P1P_1​), plus it paid a €4 dividend (D1D_1​):
+
+r1=4100+110−100100=0.04+0.10=0.14  or  14%
+That means your investment returned 14% over the holding period, with 4% coming from dividends and 10% from price appreciation.
+
+Ex-Ante vs. Ex-Post Return
+It’s important to distinguish between two concepts of return:
+
+
+Ex-Ante Return – forward-looking:
+
+Required return (opportunity cost of capital): the minimum rate of return that an “average” investor expects to earn over the holding period to compensate for taking on the investment’s risk.
+
+Expected return, denoted E(R)E(R): the average return this specific investor expects over the holding period, based on their forecasts.
+
+Ex-Post Return – backward-looking:
+
+Also called realized return: the actual return earned over the period, based on what happened. This is factual and based on historical data.
+
+Security Market Line (SML) Recap
+The Security Market Line shows the relationship between an asset’s expected return E(R)E(R) and its risk (systematic risk, measured by β\beta) according to the Capital Asset Pricing Model (CAPM).
+
+Under CAPM, assuming efficient markets:
+
+
+Every financial asset lies on the SML.
+
+If you know the risk (β\beta) of an asset, you can determine its expected return, and vice versa.
+
+
+
+Graph created on desmos.com
+Market Inefficiency and Alpha (α)
+If markets are inefficient, assets can deviate from the SML:
+
+Undervalued Asset (A):
+
+E(R) is higher than the return required by the SML → positive alpha (α>0)
+
+Price < Value
+
+Expected return > Required return
+
+Overvalued Asset (B):
+
+E(R) is lower than the return required by the SML → negative alpha (α<0)
+
+Price > Value
+
+Expected return < Required return
+
+Expected vs. Required Return
+Under the CAPM, the required return is an objective measure. It represents the minimum return an investor demands to be compensated for bearing the investment’s systematic risk (its beta). In essence, it is the opportunity cost of capital.
+
+By contrast, the expected return is a subjective measure. It reflects the future return an investor anticipates based on their own valuation and assumptions.
+
+Efficient vs. Inefficient Markets
+Efficient market: Expected return = Required return → α = 0
+In this case, the best estimate of a security’s future (or forward) price, P^H\hat{P}_H​, is given by the current price compounded at the required return, adjusted for dividends:
+
+P^H=P0⋅(1+rH)−DH​
+where:
+
+P0P_0 = current price
+
+rHr_H​ = required return (opportunity cost of capital)
+
+DHD_H​ = dividend at horizon HH
+
+Inefficient market: Expected return ≠ Required return → 
+
+E(α)=E(R)−r≠0
+Here, opportunities for excess returns (positive or negative alpha) arise.
+
+Remember that in an efficient market, any return can be divided into capital gain and dividend yield.
+Capital gain, can, in turn, be divided into:
+- "normal" capital gain that can be reached in an efficient market (no alpha)
+- the expected alpha
+Whereas dividend yields are the same for both efficient and inefficient markets.
+
+Under the SML, you would expect a dividend yield and a normal capital gain/loss, hence:
+
+P0 * (1+E(RT)) = PT + DT
+so, E(RT) = DT/P0 + (PT-P0)/P0
+
+But for an inefficient market, you expect something on top (or less) of the normal capital gain/loss, hence:
+
+P0 * (1+E(RT)) = PT + (VT - PT) + DT
+so, E(RT) = DT/P0 + (PT-P0)/P0
+Hence: E(RT) = DT/P0 + (PT-P0)/P0 + (VT-PT)/P0
+
+where the required return in efficient capital markets (cost of capital) is DT/P0 + (PT-P0)/P0
+where (PT-P0)/P0 is the "normal" capital gain/loss
+and (VT-PT)/P0 is the expected extraa return (or alpha).
+
+(PT-P0)/P0 + (VT-PT)/P0 this is the total capital gain/loss
+
+Now let's consider real assets, real investments (i.e. investment projects), not financial assets (i.e. stocks).
