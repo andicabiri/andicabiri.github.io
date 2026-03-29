@@ -1,6 +1,6 @@
    ---
-   title: Logic
+   title: Thinking
    layout: collection
-   permalink: /logic/
+   permalink: /thinking/
    ---
    Notes on logic, reasoning and clear thinking.
