@@ -1,6 +1,6 @@
 ---
 title: "Beyond the Multiple #1: Prices Are Not the Same as Values"
-date: 2026-03-29
+date: 2026-03-26
 categories: [Beyond the Multiple]
 ---
 
