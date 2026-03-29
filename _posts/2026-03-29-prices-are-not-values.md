@@ -32,7 +32,7 @@ $$V_e - P = (V - P) + (V_e - V)$$
 
 Where:
 
-- $$V - P$$ is the true mispricing — what we are trying to identify
+- $V - P$ is the true mispricing — what we are trying to identify
 - $$V_e - V$$ is our own estimation error — the noise we introduce
 
 In other words, every time an analyst looks at a stock and says "this is cheap," they are making two implicit claims simultaneously: that the market is wrong, and that their own valuation is right. Both claims could be false. Either one could dominate the other.
