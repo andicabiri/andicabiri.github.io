@@ -1,3 +1,4 @@
+   ---
    title: Beyond the Multiple
    layout: collection
    permalink: /beyond-the-multiple/
